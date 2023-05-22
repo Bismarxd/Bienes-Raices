@@ -1,0 +1,27 @@
+{
+    "name": "bisma/bienes-raices-poo",
+    "description": "Proyecto con POO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Bisma\\BienesRaicesPoo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bisnarck Mayta",
+            "email": "bismarckmaytatintaya@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.6"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
